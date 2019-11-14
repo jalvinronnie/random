@@ -229,8 +229,8 @@ public class Wallet extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        Login lgn = new Login();
-        lgn.setVisible(true);
+        Booking bkn = new Booking(UserID);
+        bkn.setVisible(true);
         Close();
     }//GEN-LAST:event_jButton2ActionPerformed
 
